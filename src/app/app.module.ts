@@ -9,12 +9,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginFormComponent } from './users/login-form/login-form.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginFormComponent,
-    DashboardComponent
+    DashboardComponent,
+    ForgotPasswordComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+declare function signUp():any;
+
 @Component({
   selector: 'app-login-form',
   templateUrl: './login-form.component.html',
@@ -10,6 +12,7 @@ export class LoginFormComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    signUp();
   }
 
 }
